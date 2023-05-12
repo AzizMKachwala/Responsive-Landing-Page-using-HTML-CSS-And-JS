@@ -1,0 +1,346 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .logo img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+
+  .hero img{
+    width: 400px;
+    height: 300px;
+  }
+  
+  /* Features section styles */
+  .features {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    display: inline-block;
+    width: 300px;
+    margin: 0 20px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p.quote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p.name {
+    font-weight: bold;
+  }
+  
+  /* Pricing section styles */
+  .pricing {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .pricing h2 {
+    margin-bottom: 40px;
+  }
+  
+  .pricing-option {
+    display: inline-block;
+    width: 300px;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .pricing-option h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-option p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-option ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-option li {
+    margin-bottom: 10px;
+  }
+  
+  /* CTA section styles */
+  .cta {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0
+  }
+  
+  .cta h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  .cta-button.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .cta-button.primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .cta-button.secondary {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .cta-button.secondary:hover {
+    background-color: #333;
+    color: #fff;
+  }  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Media queries for responsive layout */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    nav li {
+      margin-left: 10px;
+    }
+  
+    .hero-content {
+      max-width: 90%;
+    }
+  
+    .hero h1 {
+      font-size: 28px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .feature {
+      margin-bottom: 20px;
+    }
+  
+    .feature img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .feature h3 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  
+    .feature p {
+      font-size: 14px;
+    }
+  
+    .testimonial {
+      display: block;
+      margin: 0 auto 40px;
+    }
+  
+    .testimonial img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+  
+    .testimonial p.quote {
+      font-size: 14px;
+    }
+  
+    .testimonial p.name {
+      font-size: 12px;
+    }
+  
+    .pricing-option {
+      width: 90%;
+      margin: 0 auto 20px;
+    }
+  
+    .pricing-option h3 {
+      font-size: 20px;
+    }
+  
+    .pricing-option p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    .pricing-option ul {
+      margin-bottom: 10px;
+    }
+  
+    .cta {
+      padding: 20px 0;
+    }
+  
+    .cta h2 {
+      font-size: 24px;
+    }
+  
+    .cta p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  
